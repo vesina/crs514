@@ -1,0 +1,48 @@
+To get started,
+-- Click on the Activities menu on the toolbar and select the Terminal icon (black)
+-- In the terminal, navigate to the course directory using the command cd ~/crs514f
+-- Activate the environment using the command conda activate crs514f
+-- Start JupyterLab with the command jupyter-lab
+   (the browser will start)
+-- In the browser, Navigate to the chapter1 folder and doNow11 sub-folder
+-- Double click the file donow11.ipynb
+-- alternatively start vscode with the command code .
+
+
+
+For the conda environment:
+conda create --name crs514f
+conda install -c conda-forge jupyterlab
+conda install -c anaconda numpy
+conda install -c anaconda pandas
+conda install -c conda-forge matplotlib
+conda install -c anaconda scikit-learn
+conda install -c conda-forge sklearn-pandas
+conda install -c anaconda pandas-datareader
+conda install -c anaconda seaborn
+conda install -c anaconda ipywidgets
+--need node version 12 or later--
+yum install -y gcc-c++ make
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash - 
+sudo yum install -y nodejs
+-----end install node---
+jupyter nbextension enable --py widgetsnbextension
+conda install -c conda-forge squarify
+conda install -c anaconda pymysql
+conda install -c conda-forge stop-words
+conda install -c anaconda nltk
+conda install -c conda-forge pandas-profiling=3.1.0
+
+conda install -c conda-forge autoviz
+
+
+
+
+
+
+
+
+
+
+
+
